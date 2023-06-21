@@ -1,0 +1,9 @@
+{
+  "name": "Laboratorio Nova",
+  "short_name": "Labnova",
+  "start_url": ".",
+  "display": "standalone",
+  "background-color": "#0063AD",
+  "theme_color": "#0063AD",
+  "description": "Laboratorio de análisis clínicos con los más altos estándares de calidad"
+}

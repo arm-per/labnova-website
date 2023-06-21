@@ -1,0 +1,38 @@
+.animation-to-top{
+  animation: totop 750ms ease-out forwards;
+}
+.animation-to-top.images{
+  opacity: 0;
+  animation: totop 750ms ease-out forwards;
+}
+
+.grow{
+  animation: grow 750ms ease-out forwards;
+}
+.grow.images{
+  opacity: 0;
+  animation: grow 1000ms ease-out forwards;
+}
+
+@keyframes totop{
+  0%{
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100%{
+   opacity: 1;
+   transform: translateY(0px);
+  }
+}
+
+@keyframes grow {
+  from{
+    transform: scale(.95);
+    box-shadow: none;
+    opacity: 0;
+  }
+  to{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
