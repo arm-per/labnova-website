@@ -14,10 +14,8 @@ import galeria from "Assets/home_images/WEB_ EL MEJOR EQUIPO HUMANO Y TECNOLÓGI
 import home_services from "Assets/home_images/WEB_SERVICIOS.jpg";
 import contact_image from "Assets/gallery/img_32.jpg";
 
-
-
 export const Inicio = () => {
-    return (
+  return (
         <div className="container services">
             <Layout>
                 <Banner image={slide}/>
@@ -35,7 +33,7 @@ export const Inicio = () => {
                         <span>Cotizar <img src={arrow} alt="Ir"/></span>
                     </ResultadosView>
                 </EstudioIndex>
-                <ResultadosIndex href="http://labnovaeclipse.ddns.net:9090/EclipseWeb/login" target="_blank" imagen={resultados}>
+                <ResultadosIndex href="http://novadurango.dyndns.org:8083/resultados/" target="_blank" imagen={resultados}>
                     <ResultadosView>
                         <h3>Tus resultados en línea</h3>
                         <span>Consultar <img src={arrow} alt="Ir"/></span>
