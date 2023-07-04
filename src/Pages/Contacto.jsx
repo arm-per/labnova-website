@@ -8,6 +8,7 @@ export const Contacto = () => {
             <SectionTitle>¿Dónde estamos?</SectionTitle>
             <div className="contact-menu">
                 <NavLink to="Matriz">Matriz</NavLink>
+                <NavLink to="Torre-v1">Torre V1</NavLink>
                 <NavLink to="Plaza-DOMA">Plaza DOMA</NavLink>
                 <NavLink to="Punto-Guadiana">Punto Guadiana</NavLink>
                 <NavLink to="Victoria">Guadalupe Victoria</NavLink>

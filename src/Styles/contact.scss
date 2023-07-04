@@ -4,7 +4,7 @@
   background: $blue-500;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );;
   overflow: hidden;
   margin-block: 40px;
   max-width: 768px;
