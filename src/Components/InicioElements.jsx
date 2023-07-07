@@ -81,17 +81,17 @@ const MainBanner = styled.div`
   background-position: center;
   overflow: hidden;
   
-  video{
-    max-width: 100%;
-    aspect-ratio: 16/9;
+  img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
 `
 
-export const Banner = () => {
+export const Banner = ({image}) => {
     return <MainBanner>
-        <video autoPlay={true} muted={true} playsInline={true}>
-            <source src={video} type={"video/mp4"}/>
-        </video>
+        <img src={image} alt="Nueva ubicación en torre v1" />
     </MainBanner>
 }
 

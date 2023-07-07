@@ -1,6 +1,6 @@
-import {Banner, PodcastIndex, EstudioIndex, ResultadosIndex, SocialMediaIndex, ServiciosIndex, GaleriaIndex, Layout, PodcastView, ResultadosView, ServiciosView, GaleriaView, ContactoIndex} from "Components/InicioElements";
+import { Banner, PodcastIndex, EstudioIndex, ResultadosIndex, SocialMediaIndex, ServiciosIndex, GaleriaIndex, Layout, PodcastView, ResultadosView, ServiciosView, GaleriaView, ContactoIndex } from "Components/InicioElements";
 
-import slide from "Assets/banner-principal.jpg";
+import slide from "Assets/main_cover.jpg";
 import podcastImg from "Assets/podcast_img.jpeg";
 import play from "Assets/Icons/play-circle-line.svg";
 import resultados from "Assets/home_images/WEB_RESULTADOS.jpg";
