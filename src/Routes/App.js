@@ -1,4 +1,6 @@
+import React from 'react'
 import { Header } from 'Components/Layout/Header'
+import { Footer } from '../Components/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Servicios } from 'Pages/Servicios'
 import { Podcast } from 'Pages/Podcast'
@@ -7,6 +9,7 @@ import { SucursalCard } from 'Components/SucursalCard'
 import { Resultados } from 'Pages/Resultados'
 import { GalleryLayout } from 'Components/Gallery/GalleryLayout'
 import { Inicio } from 'Pages/Inicio'
+import { AvisoDePrivacidad as Privacidad } from '../Pages/AvisoDePrivacidad'
 
 const App = () => {
   return (
@@ -14,6 +17,7 @@ const App = () => {
             <Header/>
             <Routes>
                 <Route path="/" element={<Inicio/>}/>
+                <Route path="/privacidad" element={<Privacidad/>}/>
                 <Route path="/Galeria" element={<GalleryLayout/>}/>
                 <Route path="/Resultados" element={<Resultados/>}/>
                 <Route path="/Servicios" element={<Servicios/>}/>
@@ -67,6 +71,7 @@ const App = () => {
                     />}/>
                 </Route>
             </Routes>
+            <Footer/>
         </BrowserRouter>
 
   )
