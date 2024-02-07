@@ -62,11 +62,11 @@ const App = () => {
                     />}/>
                     <Route path="Victoria" element={<SucursalCard
                         map={<iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.111021793737!2d-104.12534558455613!3d24.446933167726044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869af01536ddff93%3A0xabbb7fdf153f32ee!2sJos%C3%A9%20Ram%C3%B3n%20Valdez%20105%2C%20Zona%20Centro%2C%2034700%20Cd%20Guadalupe%20Victoria%2C%20Dgo.!5e0!3m2!1sen!2smx!4v1644201899582!5m2!1sen!2smx"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.109428294663!2d-104.12741032450992!3d24.446988461677517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869af06aeaa177af%3A0x2968ad7aa42c6c81!2sGuadalupe%20Victoria-Francisco%20I%20Madero%20200%2C%20Zona%20Centro%2C%2034700%20Guadalupe%20Victoria%2C%20Dgo.!5e0!3m2!1ses-419!2smx!4v1707278810492!5m2!1ses-419!2smx"
                             className="contact-map" loading="lazy"/>}
                         location="Guadalupe Victoria"
-                        address={'José Ramón Valdez 105, Plaza Marsan, local 7 (Frente a la Plaza Principal)'}
-                        hours={<em>Lunes a Sábado 7:30 a 15:30</em>}
+                        address={'Francisco I. Madero #200 Nte. Zona Centro (Esq. con calle Carrillo Puerto)'}
+                        hours={<em>Lunes a Sábado 7:30 a 13:30</em>}
                         phone={'618 811 72 30'}
                     />}/>
                 </Route>

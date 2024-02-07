@@ -3,7 +3,7 @@ import "Styles/contact.scss";
 import telephone from "Assets/Icons/phone.svg";
 import dots from "Assets/Decorations/circles.png"
 
-export const SucursalCard = ({location, address, phone = "618 309 5543", hours, map}) => {
+export const SucursalCard = ({location, address, phone, hours, map}) => {
     return (
         <section className="contact-card-container animation-to-top">
             <div className="contact-map-container grow">

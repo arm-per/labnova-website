@@ -27,7 +27,7 @@ export const Inicio = () => {
                         <span>Un podcast en pro de la vida</span>
                     </PodcastView>
                 </PodcastIndex>
-                <EstudioIndex href="https://cotizador.labnova.com.mx" target="_blank" imagen={estudios}>
+                <EstudioIndex href="https://wa.me/+6181588403?text=Hola,%20me%20gustaría%20cotizar%20estudios"  target="_blank" imagen={estudios}>
                     <ResultadosView>
                         <h3>¿Necesitas un estudio?</h3>
                         <span>Cotizar <img src={arrow} alt="Ir"/></span>
