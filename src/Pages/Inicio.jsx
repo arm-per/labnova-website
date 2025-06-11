@@ -33,7 +33,7 @@ export const Inicio = () => {
                         <span>Cotizar <img src={arrow} alt="Ir"/></span>
                     </ResultadosView>
                 </EstudioIndex>
-                <ResultadosIndex href="http://novadurango.dyndns.org:8083/resultados/" target="_blank" imagen={resultados}>
+                <ResultadosIndex href="https://novadurango.sass.com.mx/resultados/index.php?redirect=true" target="_blank" imagen={resultados}>
                     <ResultadosView>
                         <h3>Tus resultados en línea</h3>
                         <span>Consultar <img src={arrow} alt="Ir"/></span>
