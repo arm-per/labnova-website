@@ -12,6 +12,7 @@ export const Contacto = () => {
                 <NavLink to="Plaza-DOMA">Plaza DOMA</NavLink>
                 <NavLink to="Punto-Guadiana">Punto Guadiana</NavLink>
                 <NavLink to="Victoria">Guadalupe Victoria</NavLink>
+                <NavLink to="Plaza-Jardines">Plaza Jardines</NavLink>
             </div>
             <Outlet/>
         </main>

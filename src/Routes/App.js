@@ -31,7 +31,7 @@ const App = () => {
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1736.6720298567661!2d-104.65472625430382!3d24.02238913994956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c5bd3f47c23c2f%3A0xa948eb2fa785f99b!2sLaboratorio%20de%20An%C3%A1lisis%20Cl%C3%ADnicos%20Nova!5e0!3m2!1sen!2smx!4v1644197858421!5m2!1sen!2smx"
                             loading="lazy" className="contact-map"/>}
                         address={'Av. Cuauhtémoc #609 Sur, Zona Centro C.P. 34000, Durango, Dgo.'}
-                        hours={<em>Lunes a Sábado 7:30 a 20:00 Domingos y Días festivos 8:00 a 16:00</em>}
+                        hours={<em>Lunes a Sábado 7:00 a 20:00 <br/>Domingos y Días festivos 7:30 a 15:30</em>}
                     />}/>
                      <Route path="Torre-v1" element={<SucursalCard
                         location="Torre V1"
@@ -40,7 +40,7 @@ const App = () => {
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14577.590418878777!2d-104.6811541!3d24.0170403!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bc813585b3e7f%3A0x88bde738d74c2383!2sTORRE%20VI!5e0!3m2!1sen!2smx!4v1688497580227!5m2!1sen!2smx"
                             className={'contact-map'} loading="lazy"/>}
                         address={'Torre V1 - Medical center. Local 9-D Primer Nivel. Av. Universidad #234, Lomas del Guadiana C.P. 34138 Durango, Dgo.'}
-                        hours={<em>Lunes a Sábado 7:30 a 15:30</em>}
+                        hours={<em>Lunes a Viernes 7:30 a 19:30 <br/>Sábados 7:30 a 15:30</em>}
                     />}/>
                     <Route path="Plaza-DOMA" element={<SucursalCard
                         map={<iframe
@@ -69,11 +69,19 @@ const App = () => {
                         hours={<em>Lunes a Sábado 7:30 a 13:30</em>}
                         phone={'618 811 72 30'}
                     />}/>
+                    <Route path="plaza-jardines" element={<SucursalCard
+                        map={<iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.7341787033743!2d-104.63409152443687!3d24.040437278473618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bb7b713324aa1%3A0xe82d0433762f67c9!2sPlaza%20Jardines!5e0!3m2!1ses-419!2smx!4v1761931126022!5m2!1ses-419!2smx"
+                            className="contact-map" loading="lazy"/>}
+                        location="Plaza Jardines"
+                        address='Local 25, Blvd. Francisco Villa #200, Glorieta. C.P. 34200, Durango, Dgo.'
+                        hours={<em>Lunes a Sábado 7:30 a 15:30</em>}
+                        phone={'618 811 72 30'}
+                    />}/>
                 </Route>
             </Routes>
             <Footer/>
         </BrowserRouter>
-
   )
 }
 
