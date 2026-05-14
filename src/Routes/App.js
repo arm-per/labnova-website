@@ -62,7 +62,7 @@ const App = () => {
                     />}/>
                     <Route path="Victoria" element={<SucursalCard
                         map={<iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.109428294663!2d-104.12741032450992!3d24.446988461677517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869af06aeaa177af%3A0x2968ad7aa42c6c81!2sGuadalupe%20Victoria-Francisco%20I%20Madero%20200%2C%20Zona%20Centro%2C%2034700%20Guadalupe%20Victoria%2C%20Dgo.!5e0!3m2!1ses-419!2smx!4v1707278810492!5m2!1ses-419!2smx"
+                            src="https://www.google.com/maps/place/Laboratorio+de+An%C3%A1lisis+Clinicos+Nova/@24.014117,-104.9882815,10z/data=!4m6!3m5!1s0x869af1ba6a076b61:0xd937a69a8d23a3f0!8m2!3d24.4478836!4d-104.1202141!16s%2Fg%2F11w42smgl9?entry=ttu&g_ep=EgoyMDI2MDUxMS4wIKXMDSoASAFQAw%3D%3D"
                             className="contact-map" loading="lazy"/>}
                         location="Guadalupe Victoria"
                         address={'Francisco I. Madero #200 Nte. Zona Centro (Esq. con calle Carrillo Puerto)'}
