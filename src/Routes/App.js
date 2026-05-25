@@ -10,6 +10,7 @@ import { Resultados } from 'Pages/Resultados'
 import { GalleryLayout } from 'Components/Gallery/GalleryLayout'
 import { Inicio } from 'Pages/Inicio'
 import { AvisoDePrivacidad as Privacidad } from '../Pages/AvisoDePrivacidad'
+import { Calidad } from '../Pages/Calidad'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Inicio/>}/>
                 <Route path="/privacidad" element={<Privacidad/>}/>
+                <Route path="/calidad" element={<Calidad/>}/>
                 <Route path="/Galeria" element={<GalleryLayout/>}/>
                 <Route path="/Resultados" element={<Resultados/>}/>
                 <Route path="/Servicios" element={<Servicios/>}/>

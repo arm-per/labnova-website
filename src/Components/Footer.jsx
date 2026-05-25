@@ -8,6 +8,7 @@ const StyledFooter = styled.footer`
     padding-block: 30px;
     display: flex;
     justify-content: center;
+  gap: 20px;
     a{
         text-align: center;
         color: #0063AD;
@@ -22,6 +23,7 @@ export const Footer = () => {
   return (
       <StyledFooter>
         <Link to="/privacidad">Aviso de privacidad</Link>
+        <Link to="/calidad">Politica de calidad</Link>
       </StyledFooter>
   )
 }
